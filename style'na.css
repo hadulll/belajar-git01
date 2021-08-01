@@ -1,0 +1,151 @@
+body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	background-color: #ECF1F1;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+}
+ .gallery-foto img {
+     width: 300px;
+     height: 200px;
+     border: 4px solid #575D63;
+     padding: 10px;
+     margin: 20px;
+   }
+   .gallery-video video{
+   	width: 800px;
+   	margin-left: 250px;
+   	border:5px solid opacity;
+   	border-radius: 4px;
+    }
+input[type=text1], textarea{
+	width: 100%;
+	padding: 5px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+}
+input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	border:none;
+	border-radius: 4px;
+	cursor: pointer;	
+}
+.center {
+	position: absolute;
+  left: 0;
+  top: 25%;
+  width: none;
+  font-family: 'Satisfy', cursive;
+  font-size: 90px;
+text-align: center;
+  text-decoration: underline;
+ }
+.nav-bar ul{
+	float: left;
+}
+.nav-bar ul li{
+	float: left;
+	list-style: none;
+
+}
+.nav-bar ul li a{
+	font-family: arial;
+	line-height: 19px;
+	color: #222;
+	padding:4px 14px;
+	text-decoration: none;
+}
+.nav-bar ul li a:hover{
+	background-color: #f97350;
+	text-decoration: underline;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(66, 197, 244,0.9);
+	border-bottom: 1px solid;	
+}
+nav h2{
+font-family: 'Dokdo', cursive;
+	line-height: 15px;
+	text-align: center;
+	color: #222;
+	float: left;
+	padding: 0px 30px;
+}
+nav ul{
+	float: left;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative; 
+}
+nav ul li a{
+	display: block;
+	font-family: arial;
+	line-height: 19px;
+	color: #222;
+	padding:4px 14px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	display: block;
+	background-color: #ECF1F1;
+	text-decoration: underline;
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	padding: 20px;
+
+}
+nav ul li:hover ul{
+	display: block;
+	background-color: white;
+
+}
+nav ul li ul li a{
+	padding: 13px 14px;
+}
+nav ul li ul li a:hover{
+	background-color: #ECF1F1;
+	text-decoration: underline;
+}
+form{
+	float: right;
+	padding:20px 15px;
+	margin-right: 200px;
+}
+.search{
+	width: 200px;
+	font-size: 12;
+	font-family: arial;
+}
+.submit{
+	font-family: arial;
+	font-size: 12;
+}
+#tko{
+	position: sticky;
+	width: 100%;
+	height: 100%;
+	height: auto;
+	opacity: 0.3;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	border-top: 2px solid;
+	line-height: 30px;
+	text-align: center;
+		background-color: rgba(66, 197, 244,0.9);
+	bottom: 0px;
+}
